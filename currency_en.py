@@ -8,19 +8,18 @@ Created on Sun Apr 11 19:18:59 2021
 
 @documention:
 
-    You can use this programm as an example below.
+    You can use this program as an example below.
 
-    ex:
-        input:
-            Enter ISO code: USD
+    input:
+        Enter ISO code: USD
 
-        output:
-            Title -> US Dollar
-            Code -> USD
-            CB Price -> 10482.97
-            NBU buy price -> 10430.00
-            NBU cell price -> 10500.00
-            Date -> 04/08/2021 09:00:01 am
+     output:
+        Title -> US Dollar
+        Code -> USD
+        CB Price -> 10482.97
+        NBU buy price -> 10430.00
+        NBU cell price -> 10500.00
+        Date -> 04/08/2021 09:00:01 am
 
 source: https://nbu.uz/en/exchange-rates/json/
 
@@ -32,7 +31,7 @@ currency = {
         "code": "AED",
         "cb_price": "2853.91",
         "nbu_buy_price": "",
-        "nbu_cell_price": "",
+        "nbu_sell_price": "",
         "date": "04/08/2021 09:00:01 am"
     },
     "AUD": {
@@ -40,7 +39,7 @@ currency = {
         "code": "AUD",
         "cb_price": "7988.02",
         "nbu_buy_price": "",
-        "nbu_cell_price": "",
+        "nbu_sell_price": "",
         "date": "04/08/2021 09:00:01 am"
     },
     "CAD": {
@@ -48,7 +47,7 @@ currency = {
         "code": "CAD",
         "cb_price": "8344.98",
         "nbu_buy_price": "",
-        "nbu_cell_price": "",
+        "nbu_sell_price": "",
         "date": "04/08/2021 09:00:01 am"
     },
     "CHF": {
@@ -56,7 +55,7 @@ currency = {
         "code": "CHF",
         "cb_price": "11114.26",
         "nbu_buy_price": "10600.00",
-        "nbu_cell_price": "11800.00",
+        "nbu_sell_price": "11800.00",
         "date": "04/08/2021 09:00:01 am"
     },
     "CNY": {
@@ -64,7 +63,7 @@ currency = {
         "code": "CNY",
         "cb_price": "1596.29",
         "nbu_buy_price": "",
-        "nbu_cell_price": "",
+        "nbu_sell_price": "",
         "date": "04/08/2021 09:00:01 am"
     },
     "DKK": {
@@ -72,7 +71,7 @@ currency = {
         "code": "DKK",
         "cb_price": "1654.56",
         "nbu_buy_price": "",
-        "nbu_cell_price": "",
+        "nbu_sell_price": "",
         "date": "04/08/2021 09:00:01 am"
     },
     "EGP": {
@@ -80,7 +79,7 @@ currency = {
         "code": "EGP",
         "cb_price": "666.86",
         "nbu_buy_price": "",
-        "nbu_cell_price": "",
+        "nbu_sell_price": "",
         "date": "04/08/2021 09:00:01 am"
     },
     "EUR": {
@@ -88,7 +87,7 @@ currency = {
         "code": "EUR",
         "cb_price": "12308.06",
         "nbu_buy_price": "12200.00",
-        "nbu_cell_price": "13000.00",
+        "nbu_sell_price": "13000.00",
         "date": "04/08/2021 09:00:01 am"
     },
     "GBP": {
@@ -96,7 +95,7 @@ currency = {
         "code": "GBP",
         "cb_price": "14524.15",
         "nbu_buy_price": "13800.00",
-        "nbu_cell_price": "15000.00",
+        "nbu_sell_price": "15000.00",
         "date": "04/08/2021 09:00:01 am"
     },
     "ISK": {
@@ -104,15 +103,15 @@ currency = {
         "code": "ISK",
         "cb_price": "82.76",
         "nbu_buy_price": "",
-        "nbu_cell_price": "",
-        "date": "04\/08\/2021 09:00:01 am"
+        "nbu_sell_price": "",
+        "date": "04/08/2021 09:00:01 am"
     },
     "JPY": {
         "title": "Japanese Yen",
         "code": "JPY",
         "cb_price": "94.77",
         "nbu_buy_price": "86.00",
-        "nbu_cell_price": "102.00",
+        "nbu_sell_price": "102.00",
         "date": "04/08/2021 09:00:01 am"
     },
     "KRW": {
@@ -120,7 +119,7 @@ currency = {
         "code": "KRW",
         "cb_price": "9.29",
         "nbu_buy_price": "",
-        "nbu_cell_price": "",
+        "nbu_sell_price": "",
         "date": "04/08/2021 09:00:01 am"
     },
     "KWD": {
@@ -128,7 +127,7 @@ currency = {
         "code": "KWD",
         "cb_price": "34677.37",
         "nbu_buy_price": "",
-        "nbu_cell_price": "",
+        "nbu_sell_price": "",
         "date": "04/08/2021 09:00:01 am"
     },
     "KZT": {
@@ -136,7 +135,7 @@ currency = {
         "code": "KZT",
         "cb_price": "24.49",
         "nbu_buy_price": "13.00",
-        "nbu_cell_price": "30.00",
+        "nbu_sell_price": "30.00",
         "date": "04/08/2021 09:00:01 am"
     },
     "LBP": {
@@ -144,7 +143,7 @@ currency = {
         "code": "LBP",
         "cb_price": "6.93",
         "nbu_buy_price": "",
-        "nbu_cell_price": "",
+        "nbu_sell_price": "",
         "date": "04/08/2021 09:00:01 am"
     },
     "MYR": {
@@ -152,7 +151,7 @@ currency = {
         "code": "MYR",
         "cb_price": "2530.59",
         "nbu_buy_price": "",
-        "nbu_cell_price": "",
+        "nbu_sell_price": "",
         "date": "04/08/2021 09:00:01 am"
     },
     "NOK": {
@@ -160,7 +159,7 @@ currency = {
         "code": "NOK",
         "cb_price": "1226.19",
         "nbu_buy_price": "",
-        "nbu_cell_price": "",
+        "nbu_sell_price": "",
         "date": "04/08/2021 09:00:01 am"
     },
     "PLN": {
@@ -168,7 +167,7 @@ currency = {
         "code": "PLN",
         "cb_price": "2677.64",
         "nbu_buy_price": "",
-        "nbu_cell_price": "",
+        "nbu_sell_price": "",
         "date": "04/08/2021 09:00:01 am"
     },
     "RUB": {
@@ -176,7 +175,7 @@ currency = {
         "code": "RUB",
         "cb_price": "137.32",
         "nbu_buy_price": "110.00",
-        "nbu_cell_price": "160.00",
+        "nbu_sell_price": "160.00",
         "date": "04/08/2021 09:00:01 am"
     },
     "SEK": {
@@ -184,15 +183,15 @@ currency = {
         "code": "SEK",
         "cb_price": "1197.03",
         "nbu_buy_price": "",
-        "nbu_cell_price": "",
-        "date": "04\/08\/2021 09:00:01 am"
+        "nbu_sell_price": "",
+        "date": "04/08/2021 09:00:01 am"
     },
     "SGD": {
         "title": "Singapore Dollar",
         "code": "SGD",
         "cb_price": "7794.03",
         "nbu_buy_price": "",
-        "nbu_cell_price": "",
+        "nbu_sell_price": "",
         "date": "04/08/2021 09:00:01 am"
     },
     "TRY": {
@@ -200,7 +199,7 @@ currency = {
         "code": "TRY",
         "cb_price": "1288.45",
         "nbu_buy_price": "",
-        "nbu_cell_price": "",
+        "nbu_sell_price": "",
         "date": "04/08/2021 09:00:01 am"
     },
     "UAH": {
@@ -208,7 +207,7 @@ currency = {
         "code": "UAH",
         "cb_price": "375.50",
         "nbu_buy_price": "",
-        "nbu_cell_price": "",
+        "nbu_sell_price": "",
         "date": "04/08/2021 09:00:01 am"
     },
     "USD": {
@@ -216,7 +215,7 @@ currency = {
         "code": "USD",
         "cb_price": "10482.97",
         "nbu_buy_price": "10430.00",
-        "nbu_cell_price": "10500.00",
+        "nbu_sell_price": "10500.00",
         "date": "04/08/2021 09:00:01 am"
     }
 }
@@ -229,8 +228,7 @@ if result:
     print("Code ->", result['code'])
     print("CB Price ->", result['cb_price'])
     print("NBU buy price ->", result['nbu_buy_price'])
-    print("NBU cell price ->", result['nbu_cell_price'])
+    print("NBU cell price ->", result['nbu_sell_price'])
     print("Date ->", result['date'])
 else:
     print("No result")
-
